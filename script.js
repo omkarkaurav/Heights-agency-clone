@@ -7,7 +7,7 @@ dropdown.from("nav div", {
     stagger:0.2,
 })
 
-dropdown.from(" .main-video, video",{
+dropdown.from(" .main-video",{
     duration:0.8,
     opacity:0,
 })

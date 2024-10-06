@@ -776,9 +776,8 @@ section {
 .first-video-img video{
     width: 90%;
     height: 50%;
-    object-fit: cover;
-    object-position: center;
     position: absolute;
+    object-fit: cover;
     z-index: -1;
     transition: all 0.3s ease-in;
 }
@@ -800,9 +799,8 @@ section {
 .second-video-img video{
     width: 90%;
     height: 50%;
-    object-fit: cover;
-    object-position: center;
     position: absolute;
+    object-fit: cover;
     z-index: -1;
     transition: all 0.3s ease-in;
 }
