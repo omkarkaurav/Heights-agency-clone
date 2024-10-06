@@ -41,3 +41,40 @@ dropdown.from("#section-2 div",{
 })
 
 
+gsap.to(".boxes-4",{
+    y:"-100%",
+    duration:2,
+    scrollTrigger:{
+        trigger:".pinned-img",
+        scroll:"body",
+        start:"top 0%",
+        end:"top -100%",
+        scrub:2,
+        stagger:2
+    }
+})
+gsap.to(".boxes-3",{
+    y:"100%",
+    duration:2,
+    scrollTrigger:{
+        trigger:".pinned-img",
+        scroll:"body",
+        start:"top 0%",
+        end:"top -100%",
+        scrub:2,
+        stagger:5
+    }
+})
+
+gsap.to(".pinned-img",{
+    scrollTrigger:{
+        trigger:".pinned-img",
+        scroll:"body",
+        start:"top 0%",
+        end:"top -100%",
+        scrub:2,
+        pin:true
+    }
+})
+
+
