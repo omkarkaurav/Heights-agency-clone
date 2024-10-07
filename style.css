@@ -1023,3 +1023,26 @@ section {
     overflow: hidden;
     /* background-color:#ff6f5b; */
 }
+
+footer{
+    height: 118vh;
+    background-color: #ff6f5b;
+    overflow: hidden;
+}
+
+footer .heights{
+    height: 45%;
+    width: 50%;
+    display: flex;
+    font-size: 20vw;
+    color: white;
+    text-align: center;
+    gap: 0.6vw;
+    padding-left: 1vw;
+    font-family: "poster";
+    font-weight: 600;
+    transform: translateY(-40px);
+    /* background-color: #257878; */
+    overflow: hidden;
+}
+

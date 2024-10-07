@@ -31,7 +31,7 @@ gsap.from("#section-2 .section-2-top-right",{
     }
 })
 
-dropdown.from("#section-2 .bottom-top p",{
+gsap.from("#section-2 .bottom-top p",{
     y:"-100%",
     scrollTrigger:{
         trigger:"#section-2",
@@ -43,7 +43,7 @@ dropdown.from("#section-2 .bottom-top p",{
     }
 })
 
-dropdown.from("#section-2 .combine",{
+gsap.from("#section-2 .combine",{
     y:"-100%",
     markers:true,
     scrollTrigger:{
@@ -96,7 +96,7 @@ gsap.to(".pinned-img",{
 
 gsap.from("#section-6 .section-6-top-right",{
     y:"-100%",
-    markers:true,
+    // markers:true,
     scrollTrigger:{
         trigger:"#section-6 ",
         scroll:"body",
@@ -108,7 +108,7 @@ gsap.from("#section-6 .section-6-top-right",{
 
 gsap.from("#section-6 .section-6-middle p",{
     y:"-100%",
-    markers:true,
+    // markers:true,
     scrollTrigger:{
         trigger:"#section-6 ",
         scroll:"body",
@@ -121,7 +121,7 @@ gsap.from("#section-6 .section-6-middle p",{
 
 gsap.from("#section-6 .s-6-bottom-top p",{
     y:"-100%",
-    markers:true,
+    // markers:true,
     scrollTrigger:{
         trigger:"#section-6 ",
         scroll:"body",
@@ -134,12 +134,29 @@ gsap.from("#section-6 .s-6-bottom-top p",{
 
 gsap.from("#section-6 .s-6-bottom-bottom p",{
     y:"-100%",
-    markers:true,
+    // markers:true,
     scrollTrigger:{
         trigger:"#section-6 ",
         scroll:"body",
         start:"top 0%",
         end:"top -10%",
         scrub:6,
+    }
+})
+
+
+gsap.from(".heights p",{
+    y:"-100%",
+    duration:5.5,
+    stagger:0.3,
+    scrub:2,
+    scrollTrigger:{
+        trigger:".heights",
+        scroll:"body",
+        start:"top 30%",
+        end:"top 100%",
+        scrub:7,
+        // markers:true
+        
     }
 })
