@@ -24,6 +24,23 @@ html{
     scroll-behavior: smooth;
 }
 
+.cursor{
+    position: fixed;
+    width: 15px;
+    height: 15px;
+    background-color: #ff6f5b;
+    border-radius: 50%;
+    z-index: 99;
+}
+.fix{
+    position: fixed;
+    top: 92%;
+    left: 93%;
+    font-stretch: ultra-expanded;
+    z-index: 100;
+    font-family: "Neue Haas Grotesk Text Pro", sans-serif;
+    font-size: 1.8vw;
+}
 
 nav {
     width: 100%;
@@ -1024,17 +1041,58 @@ section {
     /* background-color:#ff6f5b; */
 }
 
+#section-7{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    gap: 10vh;
+    font-family:"Neue Haas Grotesk Text Pro", sans-serif;
+    margin-top: 10vw;
+    margin-bottom: 15vw;
+}
+
+#section-7 > p{
+    font-size: 2vw;
+    padding-left: 1.5vw;
+    font-family:"Neue Haas Grotesk Text Pro", sans-serif;
+}
+
+.love{
+    padding-left: 1.5vw;
+    margin-bottom: 18vh;
+}
+
+#section-7 .lets-talk{
+    font-size: 17.2vw;
+    font-weight:700;
+    font-size: "poster";
+    height: 40%;
+    transform: scale(1,2.5);
+    font-stretch: extra-expanded;
+}
+
 footer{
     height: 118vh;
     background-color: #ff6f5b;
     overflow: hidden;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* flex-wrap: wrap; */
+}
+.footer .line{
+    width: 1.5vw;
+}
+
+footer .combine{
+    height: 90%;
+    align-items: start;
 }
 
 footer .heights{
-    height: 45%;
-    width: 50%;
+    height: 55%;
+    width: 55%;
     display: flex;
-    font-size: 20vw;
+    font-size: 23vw;
     color: white;
     text-align: center;
     gap: 0.6vw;
@@ -1044,5 +1102,102 @@ footer .heights{
     transform: translateY(-40px);
     /* background-color: #257878; */
     overflow: hidden;
+    margin-right: 0%;
+    box-sizing: border-box;
 }
 
+.footer-part-2{
+    /* background-color: darksalmon; */
+    width: 45%;
+    height: 100%;
+    box-sizing: border-box;
+    padding-left: 3vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-part-2-1{
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content:end;
+    font-size: 1.8vw;
+    padding-bottom: 13%;
+    box-sizing: border-box;
+    font-family:"Neue Haas Grotesk Text Pro", sans-serif;
+    /* background-color: #257878; */
+}
+.footer-part-2-1 a{
+    color: black;
+}
+
+.footer-part-2-2{
+    display: flex;
+    flex-direction:column;
+    box-sizing: border-box;
+    padding-top: 5%;
+    font-size: 1.6vw;
+    font-family:"Neue Haas Grotesk Text Pro", sans-serif;
+    gap: 4vw;
+    color: white;
+}
+
+.f-part-2-2-1{
+    display: flex;
+    align-items: center;
+    gap: 3%;
+}
+
+.f-part-2-2-2{
+    font-size: 1.2vw;
+    gap: 3%;
+}
+
+.footer-part-2-2  a{
+    color: white;
+    font-size: 3.2vw;
+    text-underline-offset:11px;
+    text-decoration-thickness: 3px;
+    margin-top: 7%;
+    font-family:"Neue Haas Grotesk Text Pro", sans-serif;
+}
+.footer-part-3{
+    height: 10%;
+    display: flex;
+}
+
+.footer-part-3 a{
+    color: white;
+    font-size: 1.7vw;
+    text-decoration: none;
+    font-family:"Neue Haas Grotesk Text Pro", sans-serif;
+}
+
+.f-part-3-1{
+    width: 55%;
+    display: flex;
+    align-items: center;
+    gap: 23%;
+    padding-left: 1vw;
+    box-sizing: border-box;
+}
+
+
+.f-part-3-2{
+    display: flex;
+    gap: 30%;
+    padding-left: 3vw;
+    box-sizing: border-box;
+}
+
+.f-part-3-2-1{
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+}
+
+.f-part-3-2-2{
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+}
